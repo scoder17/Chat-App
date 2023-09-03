@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#181A21"
+    android:background="#AED6DC"
     android:overScrollMode="never"
     android:padding = "@dimen/_24sdp"
     android:scrollbars = "none"
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_90sdp"
         android:orientation="vertical">
 
         <TextView
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
             android:text="Welcome Back!"
-            android:textColor="@color/white"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold">
         </TextView>
@@ -76,15 +76,17 @@
             android:animateLayoutChanges="true">
 
             <com.google.android.material.button.MaterialButton
-                android:id = "@+id/buttonSignIn"
+                android:id="@+id/buttonSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_50sdp"
                 android:layout_marginTop="@dimen/_16sdp"
-                android:text = "@string/sign_in"
+                android:text="@string/sign_in"
+                android:backgroundTint="#F4898B"
                 android:textColor="@color/white"
-                android:textSize = "@dimen/_13ssp"
+                android:textColorLink="#576AFB"
+                android:textSize="@dimen/_13ssp"
                 android:textStyle="bold"
-                />
+                 />
 
             <ProgressBar
                 android:id="@+id/progressBar"
@@ -101,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_30sdp"
             android:text = "@string/create_new_account"
-            android:textColor = "@color/white"
+            android:textColor = "@color/primary_dark"
             android:textSize="@dimen/_13sdp"
             android:textStyle="bold"
             />

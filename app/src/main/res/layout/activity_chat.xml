@@ -111,7 +111,7 @@
         android:layout_marginRight="@dimen/_16sdp"
         android:layout_marginBottom="@dimen/_14sdp"
         android:background="@drawable/background_chat_input"
-        android:backgroundTint="@color/primary"
+        android:backgroundTint="#F4898B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         >
