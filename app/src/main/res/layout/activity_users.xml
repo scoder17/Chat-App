@@ -20,7 +20,7 @@
         android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:tint="@color/primary_dark"
+        android:tint="@color/white"
         />
 
     <TextView
